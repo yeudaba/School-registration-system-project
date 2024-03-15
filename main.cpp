@@ -1,6 +1,8 @@
-#include <iostream>
+#include "School.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+int main(){
+    School A;
+    A.Menu();
     return 0;
 }
